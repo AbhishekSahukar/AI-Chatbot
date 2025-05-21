@@ -28,7 +28,7 @@ def ask_mistral(messages):
 
 # Streamlit page config
 st.set_page_config(page_title="AI Chatbot", layout="centered")
-st.title("🤖 ChatGPT-style AI Chatbot")
+st.title("🤖 My AI Chatbot")
 
 # Initialize chat history
 if "messages" not in st.session_state:
